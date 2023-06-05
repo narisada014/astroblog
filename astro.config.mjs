@@ -8,6 +8,6 @@ export default defineConfig({
 	site: 'https://beer.siberinyan.net',
 	integrations: [mdx(), sitemap()],
 	markdown: {
-	  syntaxHighlight: 'dracula',
+	  syntaxHighlight: 'shiki',
 	},
 });
